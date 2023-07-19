@@ -117,3 +117,11 @@ goat-btn{
     height: 100%;
     margin-left: 50px;
 }
+
+/* Gamer Area Style */
+.gamer-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
