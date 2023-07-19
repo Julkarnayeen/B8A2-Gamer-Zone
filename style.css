@@ -50,4 +50,70 @@ li {
 .follow Us{
     
 }
-  
+
+/* Main Area Style */
+/* GOAT Area Style */
+.goat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.goat-description{
+    background-image: url("./images/Group\ 14.png");
+    background-repeat: no-repeat;
+    
+}
+.play{
+    font-weight: 600;
+    font-size: 49px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.main-goat{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.icon-with-text{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.mini-icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+goat-btn{
+
+}
+.sign-in{
+    border-radius: 25px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: inline-flex;
+    padding: 21px 40px;
+    margin-right: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.go-rogue{
+    border-radius: 25px;
+    background: var(--linear, linear-gradient(90deg, #429aff 0%, #FF42A5 100%));
+    display: inline-flex;
+    padding: 21px 40px;
+    margin-right: 20px;
+    color: white;
+    font-size: 15px;
+}
+.goat-image{
+    width: 500px;
+    height: 100%;
+    margin-left: 50px;
+}
