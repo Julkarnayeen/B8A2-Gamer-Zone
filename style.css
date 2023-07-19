@@ -90,9 +90,6 @@ li {
     height: 25px;
     margin-right: 5px;
 }
-goat-btn{
-
-}
 .sign-in{
     border-radius: 25px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
@@ -158,14 +155,15 @@ goat-btn{
     margin-top: -50px;
 }
 
-/* Play Image Area */
+/* Play Image Area 1 */
 .gamer-area-muskil{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.gamer-area-description--muskil{
-    margin-left: 60px;
+.h11{
+    text-align: right;
+    padding-left: 150px;
 }
 .Play-Instantly{
     color: #FF42A5;
@@ -173,22 +171,55 @@ goat-btn{
 .gamer-area-muskil h1{
     font-size: 48px;
  }
-
+.gamer-area-muskil h1{
+    font-size: 48px;
+ }
+ .gamer-area-image-muskil{
+    margin-right: 70px;
+    margin-left: -100px;
+}
 .first-image{
     width: 350px;
-    height: 400px;
+    height: 350px;
 }
 .scnd-image{
     width: 150px;
     height: 150px;
-    transform: translateX(-60px) translateY(-60px);
+    transform: translateX(-60px) translateY(-100px);
 }
-
-
+/* Play Image Area 2 */
+.gamer-area-muskil2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h112{
+    text-align: left;
+    padding-right: 150px;
+}
+.Play-Instantly{
+    color: #FF42A5;
+}
+.gamer-area-muskil2 h1{
+    font-size: 48px;
+ }
+.gamer-area-image-muskil2{
+    margin-left: 70px;
+    margin-right: -100px;
+}
+.first-image2{
+    width: 350px;
+    height: 350px;
+}
+.scnd-image2{
+    width: 150px;
+    height: 150px;
+    transform: translateX(250px) translateY(-100px);
+}
 /* Carrear section style */
 .carrear-section{
     width: 100%;
-    height: 400px;
+    height: 454px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     display: flex;
     justify-content: space-between;
@@ -204,6 +235,19 @@ goat-btn{
     justify-content: space-between;
     align-items: center;
 }
+.carrear-list-two{
+    align-items: end;
+}
+.carrear-btn{
+    border-radius: 25px;
+    border: none;
+    background: white;
+    display: inline-flex;
+    padding: 21px 40px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
 .carrear-img{
     width: 700px;
 }
@@ -211,5 +255,52 @@ goat-btn{
 /* Many Game Style */
 
 .g-btn{
-    
+
+}
+
+/* footer area style */
+.footer-area{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+}
+.footer-area-h5{
+    align-items: center;
+    justify-content: center;
+    margin-left: 550px;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-menu-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.footer-img-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.footer-term{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    margin-right: 300px;
+    margin-left: 300px;
 }
