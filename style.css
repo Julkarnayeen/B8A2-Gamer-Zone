@@ -158,6 +158,33 @@ goat-btn{
     margin-top: -50px;
 }
 
+/* Play Image Area */
+.gamer-area-muskil{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gamer-area-description--muskil{
+    margin-left: 60px;
+}
+.Play-Instantly{
+    color: #FF42A5;
+}
+.gamer-area-muskil h1{
+    font-size: 48px;
+ }
+
+.first-image{
+    width: 350px;
+    height: 400px;
+}
+.scnd-image{
+    width: 150px;
+    height: 150px;
+    transform: translateX(-60px) translateY(-60px);
+}
+
+
 /* Carrear section style */
 .carrear-section{
     width: 100%;
