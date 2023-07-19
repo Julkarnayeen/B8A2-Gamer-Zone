@@ -47,9 +47,7 @@ li {
     background: rgba(11, 2, 35, 0.10);
     padding: 5px;
 }
-.follow Us{
-    
-}
+
 
 /* Main Area Style */
 /* GOAT Area Style */
@@ -61,7 +59,7 @@ li {
     margin-right: 200px;
 }
 .goat-description{
-    background-image: url("./images/Group\ 14.png");
+
     background-repeat: no-repeat;
     
 }
@@ -131,7 +129,15 @@ li {
     margin-right: 150px;
     text-align: right;
 }
-
+.sign-in-t{
+    border-radius: 25px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: inline-flex;
+    padding: 21px 40px;
+    margin-right: 0px;
+    color: white;
+    font-size: 15px;
+}
 /* Online Games */
 .online-games{
     text-align: center;
@@ -264,13 +270,24 @@ li {
     margin-bottom: 15px;
 }
 .g-btn{
+    border-radius: 25px;
     border: none;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+    background: white;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 10px;
     margin-right: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
 }
+.none{
+    border: 1px solid red;
+    color: red;
+}
+
 .g-img-btn{
     width: 40px;
+    margin-right: 5px;
 }
 .many-game-btn-two{
     justify-content: center;
