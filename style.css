@@ -53,13 +53,16 @@ li>a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     border: none;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding-right: 24px;
-    padding-left: 24px;
-
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.menu-icon{
+    width: 30px;
+    height: auto;
 }
 
 /* Main Area Style */
@@ -356,4 +359,74 @@ li>a{
     padding-bottom: 5px;
     margin-right: 300px;
     margin-left: 300px;
+}
+
+/* Mobile Screen Style */
+
+@media screen and (max-width:768px) {
+    .menu {
+        display: ;
+        flex-direction: column;
+        background-color: #55555500;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+      } 
+      .menus {
+        display: ;
+        flex-direction: column;
+        background-color: #55555500;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+      } 
+      .navbar{
+        justify-content: center;
+      }
+      .goat{
+        flex-direction: row-reverse;
+        margin-top: 200px;
+        flex-wrap: wrap-reverse; 
+        justify-content: space-around;
+      }
+      .goat-image, .gm-ar-img{
+        margin: 10px;
+        padding: 10px;
+      }
+      .gm-ar-img{
+        width: 500px;
+        height: 350;
+      }
+      .gamer-area, .online-games, .online-games-image, .gamer-area-muskil, .gamer-area-muskil2, .carrear-section{
+        flex-direction: column;
+      }
+      .gamer-area-muskil2{
+        flex-direction: column-reverse;
+      }
+      .online-games-images{
+        width: 400px;
+        height: 600px;
+      }
+      .carrear-section{
+        height: 900px;
+      }
+      .many-game-btn{
+        margin-top: 500px;
+      }
+      .footer-area{
+        height: 500px;
+      }
+      .footer-menu-section, .footer-img-section{
+        width: 100vh;
+      }
+      .footer-img-section{
+        width: 100vh;
+        margin: 100px;
+        padding: 0;
+      }
+
+
+
 }
