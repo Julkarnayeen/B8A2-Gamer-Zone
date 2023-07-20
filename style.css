@@ -34,20 +34,33 @@ font-family: 'Work Sans', sans-serif;
 }
 .menus{
     display:flex;
-    margin-right: 5px;
+    gap: 25px;
+    align-items: center;
 }
-  
-li {
+
+li{
     list-style-type: none;
-    margin-right: 32px;
+    margin-right: 0px;
+}
+li>a{
+    text-decoration: none;
 }
 .menu-btn{
     border: none;
     border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
-    padding: 5px;
 }
+.follow-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding-right: 24px;
+    padding-left: 24px;
 
+}
 
 /* Main Area Style */
 /* GOAT Area Style */
@@ -280,6 +293,10 @@ li {
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
+.g-btn:hover{
+    color: red;
+    border: solid 1px black;
+}
 .none{
     border: 1px solid red;
     color: red;
@@ -293,7 +310,7 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 90px;
 }
 
 /* footer area style */
