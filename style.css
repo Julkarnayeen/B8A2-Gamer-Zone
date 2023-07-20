@@ -71,11 +71,6 @@ li>a{
     margin-left: 200px;
     margin-right: 200px;
 }
-.goat-description{
-
-    background-repeat: no-repeat;
-    
-}
 .play{
     font-weight: 600;
     font-size: 49px;
@@ -264,8 +259,11 @@ li>a{
     display: inline-flex;
     padding: 21px 40px;
     margin-right: 20px;
-    color: rgb(0, 0, 0);
+    color:#F948B2;
     font-size: 15px;
+}
+.carrear-btn:hover{
+    border: solid 1px black;
 }
 .carrear-img{
     width: 700px;
